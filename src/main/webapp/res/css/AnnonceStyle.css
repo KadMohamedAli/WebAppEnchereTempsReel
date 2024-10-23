@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Light background color */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+}
+
+.exchange-rate-frame {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#announcement-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+.announcement {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            width: 80%
+        }
+
+img {
+            max-width: 20%;
+            height: auto;
+        }
+
+button {
+            margin-top: 10px;
+        };
+        
+/* Style the navigation links */
+.navigation {
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 14px 16px;
+}
+/* Style the home icon */
+.navigation .home-icon {
+    max-height: 40px; /* Set the maximum height for the home icon */
+    max-width: 40px;  /* Set the maximum width for the home icon */
+}
+
+/* Style the profile image */
+.navigation a.profile img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 45px;
+}
+
+/* Style the button to add an announcement */
+.add-annonce {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+.user-info{
+	   width: fill-content; /* Take up the entire width of the container */
+    text-align: right; /* Align the content to the right */
+
+}
+/* Move Log Out link and profile image to the extreme right */
+.navigation ,
+.navigation .right-section {
+    width: 100%; /* Take up the entire width of the container */
+    text-align: right; /* Align the content to the right */
+}
+
+/* Move Log Out link to the extreme right */
+.navigation a.logout {
+    margin-left: auto;
+    margin-right: 15px; 
+}
+
+
+/* Add more styling as needed */

@@ -1,0 +1,190 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Light background color */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+}
+
+.user-container {
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.announcement {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            border-bottom: 1px solid #ccc;
+            max-width: 80%;
+        }
+
+        .title {
+            font-size: 54px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .image {
+            max-width: 300px;
+            max-height: auto;
+            margin-right: 20px;
+        }
+
+        .price {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .time {
+            font-size: 34px;
+            color: #555;
+        }
+
+
+
+
+
+h2 {
+    color: #f9f9f9; /* Darker heading color */
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* White table background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+    border-radius: 20px;
+}
+
+.user-row {
+    border: 1px solid #ddd;
+}
+
+.user-row td {
+    padding: 15px;
+    text-align: left;
+}
+
+.user-picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555; /* Subdued text color for user name */
+}
+
+.user-email {
+    color: #777; /* Lighter text color for user email */
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Increase spacing between elements */
+.user-table,
+.user-row td,
+.user-actions form {
+    margin-bottom: 10px;
+}
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the navigation links */
+.navigation {
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 14px 16px;
+}
+/* Style the home icon */
+.navigation .home-icon {
+    max-height: 40px; /* Set the maximum height for the home icon */
+    max-width: 40px;  /* Set the maximum width for the home icon */
+}
+
+/* Style the profile image */
+.navigation a.profile img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 45px;
+}
+
+/* Style the button to add an announcement */
+.add-annonce {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+.user-info{
+	   width: fill-content; /* Take up the entire width of the container */
+    text-align: right; /* Align the content to the right */
+
+}
+/* Move Log Out link and profile image to the extreme right */
+.navigation ,
+.navigation .right-section {
+    width: 100%; /* Take up the entire width of the container */
+    text-align: right; /* Align the content to the right */
+}
+
+/* Move Log Out link to the extreme right */
+.navigation a.logout {
+    margin-left: auto;
+    margin-right: 15px; 
+}
+
+
+/* Add more styling as needed */
